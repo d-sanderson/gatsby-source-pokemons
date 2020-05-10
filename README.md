@@ -14,7 +14,7 @@ Makes 8 generations of Pokemon available in your Gatsby Project by adding Query 
 
 Within the root of your Gatsby Project  
 
-1.  `npm install --save gatsby-source-pokemons`
+1.  `npm install gatsby-source-pokemons`
 
 2. add `gatsby-source-pokemons` to your plugin array in `gatsby-config.js`
 
