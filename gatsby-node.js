@@ -14,7 +14,6 @@ exports.sourceNodes = async ({
   try {
     // Map over the results array, calling action.createNode on each item in the array
    uniquePokemons.forEach((pokemon, i) => {
-     console.log(pokemon)
       const node = {
         ...pokemon, // We copy all of the properties from the pokemon object
         id: createNodeId(i), // Needs to be unique
