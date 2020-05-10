@@ -24,7 +24,7 @@ Within the root of your Gatsby Project
 ## Examples of usage
 
 see [example repo](https://github.com/dsanderson90/pokemon-source-example)
-{
+```{
   allPokemons {
     nodes {
       name
@@ -45,3 +45,4 @@ see [example repo](https://github.com/dsanderson90/pokemon-source-example)
     }
   }
 }
+```
