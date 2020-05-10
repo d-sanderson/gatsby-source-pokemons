@@ -1,25 +1,5 @@
 const path = require(`path`);
 const { results } = require("pokemons");
-const types = [
-  "Normal",
-  "Fighting",
-  "Flying",
-  "Poison",
-  "Ground",
-  "Rock",
-  "Bug",
-  "Ghost",
-  "Steel",
-  "Fire",
-  "Grass",
-  "Water",
-  "Electric",
-  "Psychic",
-  "Ice",
-  "Dragon",
-  "Dark",
-  "Fairy",
-];
 const uniquePokemons = Array.from(new Set(results.map(a => a.name)))
  .map(name => {
    return results.find(a => a.name === name)
