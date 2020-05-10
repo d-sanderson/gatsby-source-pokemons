@@ -1,8 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "name": "gatsby-source-pokemons",
+  "author": "David Sanderson (https://github.com/dsanderson90)",
+  "contributors": [
+    "David Sanderson <sanderdj90@gmail.com>"
+  ],
+  "private": false,
+  "description": "A Gatsby Source Plugin for all 802 Pokemon!",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -20,7 +24,6 @@
     "gatsby-plugin-sharp": "^2.6.2",
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-transformer-sharp": "^2.5.2",
-    "node-fetch": "^2.6.0",
     "pokemons": "^1.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -31,9 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/dsanderson90/gatsby-source-pokemons"
   },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "pokemons"
+  ],
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "url": "https://github.com/dsanderson90/gatsby-source-pokemons/issues"
+  },
+  "homepage": "https://github.com/dsanderson90/gatsby-source-pokemons#readme",
 }
