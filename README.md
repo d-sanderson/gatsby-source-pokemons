@@ -8,7 +8,7 @@
   Gatsby Source Pokemons Plugin
 </h1>
 
-Makes 8 generations of pokemon available in GQL by adding Query allPokemons.
+Makes 8 generations of Pokemon available in your Gatsby Project by adding Query allPokemons.
 
 ## How to install
 
