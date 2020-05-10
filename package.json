@@ -6,7 +6,7 @@
     "David Sanderson <sanderdj90@gmail.com>"
   ],
   "private": false,
-  "description": "A Gatsby Source Plugin for all 802 Pokemon!",
+  "description": "A Gatsby Source Plugin for 8 Generations of Pokemon!",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
