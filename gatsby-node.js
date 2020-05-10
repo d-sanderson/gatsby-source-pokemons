@@ -1,4 +1,3 @@
-const path = require(`path`);
 const { results } = require("pokemons");
 const uniquePokemons = Array.from(new Set(results.map(a => a.name)))
  .map(name => {
@@ -10,7 +9,6 @@ exports.sourceNodes = async ({
   createContentDigest,
 }) => {
   const { createPage } = actions;
-  const TypeTemplate = path.resolve(`src/templates/TypeTemplate.js`);
   try {
     // Map over the results array, calling action.createNode on each item in the array
    uniquePokemons.forEach((pokemon, i) => {
