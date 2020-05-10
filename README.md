@@ -18,7 +18,7 @@ Within the root of your Gatsby Project
 
 2. add `gatsby-source-pokemons` to your plugin array in `gatsby-config.js`
 
-3. Navigate into your `localhost:8000/__graphql` to view `allPokemons` query type.
+3. Navigate to `localhost:8000/__graphql` to view `allPokemons` query type.
 
 
 ## Examples of usage
