@@ -48,16 +48,4 @@ exports.sourceNodes = async ({
   } catch (error) {
     console.log(error);
   }
-
-  types.forEach(type => {
-    let slug = type.toLowerCase();
-    createPage({
-      path: `/type/${slug}`,
-      component: TypeTemplate,
-      context: {
-        type: type,
-        url: `/type/${type}`,
-      },
-    });
-  });
 };

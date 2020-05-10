@@ -1,12 +1,12 @@
 {
   "name": "gatsby-source-pokemons",
+  "version": "1.0.0",
   "author": "David Sanderson (https://github.com/dsanderson90)",
   "contributors": [
     "David Sanderson <sanderdj90@gmail.com>"
   ],
   "private": false,
   "description": "A Gatsby Source Plugin for all 802 Pokemon!",
-  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -18,19 +18,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.21.21",
-    "gatsby-plugin-manifest": "^2.4.2",
-    "gatsby-plugin-react-helmet": "^3.3.1",
-    "gatsby-plugin-sharp": "^2.6.2",
-    "gatsby-source-filesystem": "^2.3.1",
-    "gatsby-transformer-sharp": "^2.5.2",
-    "pokemons": "^1.1.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "pokemons": "^1.1.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "gatsby": "^2.21.21",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "repository": {
     "type": "git",
@@ -44,5 +38,5 @@
   "bugs": {
     "url": "https://github.com/dsanderson90/gatsby-source-pokemons/issues"
   },
-  "homepage": "https://github.com/dsanderson90/gatsby-source-pokemons#readme",
+  "homepage": "https://github.com/dsanderson90/gatsby-source-pokemons#readme"
 }
