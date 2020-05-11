@@ -8,7 +8,6 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
-  const { createPage } = actions;
   try {
     // Map over the results array, calling action.createNode on each item in the array
    uniquePokemons.forEach((pokemon, i) => {
