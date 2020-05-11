@@ -1,12 +1,12 @@
 {
   "name": "gatsby-source-pokemons",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "author": "David Sanderson (https://github.com/dsanderson90)",
   "contributors": [
     "David Sanderson <sanderdj90@gmail.com>"
   ],
   "private": false,
-  "description": "A Gatsby Source Plugin for 8 Generations of Pokemon!",
+  "description": "A gatsby source plugin for building Pokemon Projects using GraphQL in Gatsby.",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

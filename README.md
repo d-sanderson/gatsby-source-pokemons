@@ -8,11 +8,11 @@
   Gatsby Source Pokemons Plugin
 </h1>
 
-Makes 8 generations of Pokemon available in your Gatsby Project by adding Query allPokemons.
+Source plugin for pulling pokemon data into Gatsby. 
 
 ## How to install
 
-Within the root of your Gatsby Project  
+### Within the root of your Gatsby Project:
 
 1.  `npm install gatsby-source-pokemons`
 
