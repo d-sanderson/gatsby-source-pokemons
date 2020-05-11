@@ -20,12 +20,6 @@
   "dependencies": {
     "pokemons": "^1.1.0"
   },
-  "devDependencies": {
-    "prettier": "2.0.5",
-    "gatsby": "^2.21.21",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dsanderson90/gatsby-source-pokemons"
