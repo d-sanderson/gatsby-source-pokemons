@@ -1,8 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <!-- <a href="">
-    <img alt="Gatsby Source Pokemons Image" src="" width="60" />
-  </a> -->
+  <a href="">
+    <img alt="Gatsby Source Pokemons Image" src="/assets/gatsbypluspokemon.png" width="60" />
+  </a>
 </p>
 <h1 align="center">
   Gatsby Source Pokemons Plugin
