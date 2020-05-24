@@ -36,8 +36,7 @@ see [example repo](https://github.com/dsanderson90/pokemon-source-example)
       national_number
       sprites {
         normal
-        large
-        animated
+        large (not available on pokemon after national_number 721)
       }
     }
   }
