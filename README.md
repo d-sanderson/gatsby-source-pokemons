@@ -26,6 +26,7 @@ see [example repo](https://github.com/dsanderson90/pokemon-source-example)
     nodes {
       name
       id
+      total
       hp
       sp_def
       sp_atk
@@ -34,6 +35,7 @@ see [example repo](https://github.com/dsanderson90/pokemon-source-example)
       type
       speed
       national_number
+      natl_num(as int)
       sprites {
         normal
         large (not available on pokemon after national_number 721)
