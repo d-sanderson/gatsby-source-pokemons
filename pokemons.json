@@ -1,4 +1,4 @@
-[
+{ "results": [
   {
     "name": "Bulbasaur",
     "type": ["grass", "poison"],
@@ -30826,3 +30826,4 @@
     "total": 690
   }
 ]
+}
